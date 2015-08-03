@@ -51,7 +51,7 @@
 (require 'init-grep)
 (require 'init-uniquify)
 (require 'init-ibuffer)
-(require 'init-flycheck)
+;;(require 'init-flycheck)
 
 (require 'init-recentf)
 (require 'init-ido)
@@ -74,7 +74,7 @@
 (require 'init-textile)
 (require 'init-markdown)
 (require 'init-csv)
-(require 'init-erlang)
+;(require 'init-erlang)
 (require 'init-javascript)
 (require 'init-php)
 (require 'init-org)
@@ -83,17 +83,19 @@
 (require 'init-css)
 (require 'init-haml)
 (require 'init-python-mode)
-(require 'init-haskell)
-(require 'init-ruby-mode)
-(require 'init-rails)
+;(require 'init-haskell)
+;(require 'init-ruby-mode)
+;(require 'init-rails)
 (require 'init-sql)
 
 (require 'init-paredit)
 (require 'init-lisp)
 (require 'init-slime)
-(when (>= emacs-major-version 24)
-  (require 'init-clojure)
-  (require 'init-clojure-cider))
+
+;; (when (>= emacs-major-version 24)
+;;   (require 'init-clojure)
+;;   (require 'init-clojure-cider))
+
 (require 'init-common-lisp)
 
 (when *spell-check-support-enabled*
